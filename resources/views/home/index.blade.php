@@ -5,12 +5,12 @@
         @auth
         <h1>Dashboard</h1>
         <p class="lead">Only authenticated users can access this section.</p>
-        <a class="btn btn-lg btn-primary" href="https://codeanddeploy.com" role="button">View more tutorials here &raquo;</a>
+        {{-- <a class="btn btn-lg btn-primary" href="#" role="button"> &raquo;</a> --}}
         @endauth
 
         @guest
         <h1>Homepage</h1>
-        <p class="lead">Your viewing the home page. Please login to view the restricted data.</p>
+        <p class="lead">You are viewing the home page. Please login to view the restricted data.</p>
         @endguest
     </div>
 @endsection
